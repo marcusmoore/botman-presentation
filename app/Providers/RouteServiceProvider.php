@@ -49,7 +49,9 @@ class RouteServiceProvider extends ServiceProvider
      */
     protected function mapBotManCommands()
     {
-        require base_path('routes/botman.php');
+        require base_path('routes/botman-1.php');
+        require base_path('routes/botman-2.php');
+        require base_path('routes/botman-10.php');
     }
 
     /**
